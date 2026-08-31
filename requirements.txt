@@ -1,0 +1,11 @@
+# Exact versions verified working this session (Python 3.10.20), not just minimum bounds.
+# This is everything grassmannian_framework_release/'s own code actually imports --
+# see full_environment_freeze.txt for the complete conda env dump (includes unrelated
+# packages from other projects sharing that env, e.g. pandas/biopython/pypdf -- none of
+# those are needed here).
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+ripser==0.6.15
+gudhi==3.13.0
+matplotlib==3.10.9

@@ -1,0 +1,105 @@
+{
+  "dataset": "sars_cov_2",
+  "n": 44,
+  "n_labels": 8,
+  "fasta": "/Users/xiangxiang/Library/CloudStorage/OneDrive-UniversityofGeorgia/2026 Summer/Grassmann for genome/mycode/grassmann_psd_workshop_backup_2026-08-15/grassmannian_cakl_figure2/data/raw/sars_cov_2/sars_cov_2.fasta",
+  "labels_csv": "/Users/xiangxiang/Library/CloudStorage/OneDrive-UniversityofGeorgia/2026 Summer/Grassmann for genome/grassmnnian_hpcc/grassmannian_framework_release/data/labels/sars_cov_2_labels.csv",
+  "methods": {
+    "NVM": {
+      "average_purity": 0.304375,
+      "per_label_purity": {
+        "Alpha": 0.22222222222222227,
+        "Beta": 0.28,
+        "Delta": 0.16666666666666669,
+        "GH490R": 0.28,
+        "Gamma": 0.22222222222222227,
+        "Lambda": 0.375,
+        "Mu": 0.7222222222222223,
+        "Omicron": 0.16666666666666669
+      },
+      "params": {
+        "max_moment_order": 5,
+        "vector_dim": 24,
+        "unit": "single nucleotide (A/C/G/T)",
+        "compare": "euclidean"
+      },
+      "formula_note": "classic Deng/Yu/Yau/Yau natural vector, single-nucleotide (NOT k-mer) moments up to order 5; see baseline_methods.py natural_vector() docstring for the exact interpretive choice"
+    },
+    "FFP-JS": {
+      "average_purity": 0.835,
+      "per_label_purity": {
+        "Alpha": 1.0,
+        "Beta": 1.0,
+        "Delta": 0.7222222222222223,
+        "GH490R": 0.6800000000000002,
+        "Gamma": 0.7222222222222223,
+        "Lambda": 1.0,
+        "Mu": 1.0,
+        "Omicron": 0.5555555555555556
+      },
+      "params": {
+        "k": 3,
+        "pseudocount": 1.0,
+        "log_base": "natural (ln)",
+        "compare": "Jensen-Shannon divergence"
+      }
+    },
+    "FFP-KL": {
+      "average_purity": 0.835,
+      "per_label_purity": {
+        "Alpha": 1.0,
+        "Beta": 1.0,
+        "Delta": 0.7222222222222223,
+        "GH490R": 0.6800000000000002,
+        "Gamma": 0.7222222222222223,
+        "Lambda": 1.0,
+        "Mu": 1.0,
+        "Omicron": 0.5555555555555556
+      },
+      "params": {
+        "k": 3,
+        "pseudocount": 1.0,
+        "log_base": "natural (ln)",
+        "compare": "symmetrized KL divergence 0.5*(KL(P||Q)+KL(Q||P))"
+      }
+    },
+    "Markov": {
+      "average_purity": 0.9305555555555556,
+      "per_label_purity": {
+        "Alpha": 0.7222222222222223,
+        "Beta": 1.0,
+        "Delta": 0.7222222222222223,
+        "GH490R": 1.0,
+        "Gamma": 1.0,
+        "Lambda": 1.0,
+        "Mu": 1.0,
+        "Omicron": 1.0
+      },
+      "params": {
+        "order": 3,
+        "word_len": 4,
+        "smoothing": "Laplace add-1 on transition counts",
+        "compare": "euclidean",
+        "feature": "observed minus Markov-expected (k+1)-mer frequency deviation vector"
+      }
+    },
+    "FPS": {
+      "average_purity": 0.49020833333333336,
+      "per_label_purity": {
+        "Alpha": 0.7222222222222223,
+        "Beta": 0.52,
+        "Delta": 0.3888888888888889,
+        "GH490R": 0.3600000000000001,
+        "Gamma": 0.7222222222222223,
+        "Lambda": 0.375,
+        "Mu": 0.5555555555555556,
+        "Omicron": 0.2777777777777778
+      },
+      "params": {
+        "resample_n_points": 29378,
+        "resample_rule": "shortest sequence length in this dataset",
+        "compare": "1 - Pearson correlation of resampled power spectra"
+      }
+    }
+  }
+}

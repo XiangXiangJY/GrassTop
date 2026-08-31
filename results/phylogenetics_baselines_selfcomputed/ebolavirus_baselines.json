@@ -1,0 +1,90 @@
+{
+  "dataset": "ebolavirus",
+  "n": 59,
+  "n_labels": 5,
+  "fasta": "/Users/xiangxiang/Library/CloudStorage/OneDrive-UniversityofGeorgia/2026 Summer/Grassmann for genome/mycode/grassmann_psd_workshop_backup_2026-08-15/grassmannian_cakl_figure2/data/raw/ebolavirus/ebolavirus.fasta",
+  "labels_csv": "/Users/xiangxiang/Library/CloudStorage/OneDrive-UniversityofGeorgia/2026 Summer/Grassmann for genome/grassmnnian_hpcc/grassmannian_framework_release/data/labels/ebolavirus_labels.csv",
+  "methods": {
+    "NVM": {
+      "average_purity": 1.0,
+      "per_label_purity": {
+        "BDBV": 1.0,
+        "EBOV": 1.0,
+        "RESTV": 1.0,
+        "SUDV": 1.0,
+        "TAFV": 1.0
+      },
+      "params": {
+        "max_moment_order": 5,
+        "vector_dim": 24,
+        "unit": "single nucleotide (A/C/G/T)",
+        "compare": "euclidean"
+      },
+      "formula_note": "classic Deng/Yu/Yau/Yau natural vector, single-nucleotide (NOT k-mer) moments up to order 5; see baseline_methods.py natural_vector() docstring for the exact interpretive choice"
+    },
+    "FFP-JS": {
+      "average_purity": 1.0,
+      "per_label_purity": {
+        "BDBV": 1.0,
+        "EBOV": 1.0,
+        "RESTV": 1.0,
+        "SUDV": 1.0,
+        "TAFV": 1.0
+      },
+      "params": {
+        "k": 3,
+        "pseudocount": 1.0,
+        "log_base": "natural (ln)",
+        "compare": "Jensen-Shannon divergence"
+      }
+    },
+    "FFP-KL": {
+      "average_purity": 1.0,
+      "per_label_purity": {
+        "BDBV": 1.0,
+        "EBOV": 1.0,
+        "RESTV": 1.0,
+        "SUDV": 1.0,
+        "TAFV": 1.0
+      },
+      "params": {
+        "k": 3,
+        "pseudocount": 1.0,
+        "log_base": "natural (ln)",
+        "compare": "symmetrized KL divergence 0.5*(KL(P||Q)+KL(Q||P))"
+      }
+    },
+    "Markov": {
+      "average_purity": 1.0,
+      "per_label_purity": {
+        "BDBV": 1.0,
+        "EBOV": 1.0,
+        "RESTV": 1.0,
+        "SUDV": 1.0,
+        "TAFV": 1.0
+      },
+      "params": {
+        "order": 3,
+        "word_len": 4,
+        "smoothing": "Laplace add-1 on transition counts",
+        "compare": "euclidean",
+        "feature": "observed minus Markov-expected (k+1)-mer frequency deviation vector"
+      }
+    },
+    "FPS": {
+      "average_purity": 1.0,
+      "per_label_purity": {
+        "BDBV": 1.0,
+        "EBOV": 1.0,
+        "RESTV": 1.0,
+        "SUDV": 1.0,
+        "TAFV": 1.0
+      },
+      "params": {
+        "resample_n_points": 18796,
+        "resample_rule": "shortest sequence length in this dataset",
+        "compare": "1 - Pearson correlation of resampled power spectra"
+      }
+    }
+  }
+}

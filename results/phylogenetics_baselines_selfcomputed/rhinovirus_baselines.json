@@ -1,0 +1,85 @@
+{
+  "dataset": "rhinovirus",
+  "n": 116,
+  "n_labels": 4,
+  "fasta": "/Users/xiangxiang/Library/CloudStorage/OneDrive-UniversityofGeorgia/2026 Summer/Grassmann for genome/mycode/grassmann_psd_workshop_backup_2026-08-15/grassmannian_cakl_figure2/data/raw/rhinovirus/rhinovirus.fasta",
+  "labels_csv": "/Users/xiangxiang/Library/CloudStorage/OneDrive-UniversityofGeorgia/2026 Summer/Grassmann for genome/grassmnnian_hpcc/grassmannian_framework_release/data/labels/rhinovirus_labels.csv",
+  "methods": {
+    "NVM": {
+      "average_purity": 0.7578615884250579,
+      "per_label_purity": {
+        "A": 0.8420972412741958,
+        "B": 0.6893491124260356,
+        "C": 0.5,
+        "HEV": 1.0
+      },
+      "params": {
+        "max_moment_order": 5,
+        "vector_dim": 24,
+        "unit": "single nucleotide (A/C/G/T)",
+        "compare": "euclidean"
+      },
+      "formula_note": "classic Deng/Yu/Yau/Yau natural vector, single-nucleotide (NOT k-mer) moments up to order 5; see baseline_methods.py natural_vector() docstring for the exact interpretive choice"
+    },
+    "FFP-JS": {
+      "average_purity": 0.7542164610857235,
+      "per_label_purity": {
+        "A": 0.7387593354671544,
+        "B": 0.2781065088757396,
+        "C": 1.0,
+        "HEV": 1.0
+      },
+      "params": {
+        "k": 3,
+        "pseudocount": 1.0,
+        "log_base": "natural (ln)",
+        "compare": "Jensen-Shannon divergence"
+      }
+    },
+    "FFP-KL": {
+      "average_purity": 0.7542164610857235,
+      "per_label_purity": {
+        "A": 0.7387593354671544,
+        "B": 0.2781065088757396,
+        "C": 1.0,
+        "HEV": 1.0
+      },
+      "params": {
+        "k": 3,
+        "pseudocount": 1.0,
+        "log_base": "natural (ln)",
+        "compare": "symmetrized KL divergence 0.5*(KL(P||Q)+KL(Q||P))"
+      }
+    },
+    "Markov": {
+      "average_purity": 1.0,
+      "per_label_purity": {
+        "A": 1.0,
+        "B": 1.0,
+        "C": 1.0,
+        "HEV": 1.0
+      },
+      "params": {
+        "order": 3,
+        "word_len": 4,
+        "smoothing": "Laplace add-1 on transition counts",
+        "compare": "euclidean",
+        "feature": "observed minus Markov-expected (k+1)-mer frequency deviation vector"
+      }
+    },
+    "FPS": {
+      "average_purity": 0.875,
+      "per_label_purity": {
+        "A": 1.0,
+        "B": 1.0,
+        "C": 0.5,
+        "HEV": 1.0
+      },
+      "params": {
+        "resample_n_points": 6944,
+        "resample_rule": "shortest sequence length in this dataset",
+        "compare": "1 - Pearson correlation of resampled power spectra"
+      }
+    }
+  }
+}

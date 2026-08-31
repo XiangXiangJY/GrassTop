@@ -1,0 +1,39 @@
+{
+  "n": 41,
+  "n_labels": 8,
+  "channels": [
+    "B"
+  ],
+  "ks": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "rank": 10,
+  "average_purity": 1.0,
+  "per_label_purity": {
+    "Artiodactyla": 1.0,
+    "Carnivore": 1.0,
+    "Cetacea": 1.0,
+    "Erinaceomorpha": 1.0,
+    "Lagomorpha": 1.0,
+    "Perissodactyla": 1.0,
+    "Primates": 1.0,
+    "Rodentia": 1.0
+  },
+  "bootstrap_ci_over_labels": {
+    "point": 1.0,
+    "lo": 1.0,
+    "hi": 1.0,
+    "alpha": 0.05
+  },
+  "bootstrap_ci_over_leaves": {
+    "point": 1.0,
+    "lo": 0.8478961709104939,
+    "hi": 1.0,
+    "alpha": 0.05,
+    "n_boot": 300
+  }
+}

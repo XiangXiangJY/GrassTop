@@ -1,0 +1,4526 @@
+{
+  "config": {
+    "channels": [
+      "B",
+      "MEANP",
+      "STDP"
+    ],
+    "ks": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "rank": 10,
+    "knn": 5,
+    "n_seeds_per_label": 1,
+    "n_replicates": 5,
+    "rates": [
+      0.0001,
+      0.0005,
+      0.001,
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.15,
+      0.25,
+      0.4
+    ],
+    "seed": 42
+  },
+  "summary_by_rate": [
+    {
+      "rate": 0.0001,
+      "n": 40,
+      "label_preservation": 0.75,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.0005,
+      "n": 40,
+      "label_preservation": 0.7,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.001,
+      "n": 40,
+      "label_preservation": 0.75,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.005,
+      "n": 40,
+      "label_preservation": 0.725,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.01,
+      "n": 40,
+      "label_preservation": 0.7,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.02,
+      "n": 40,
+      "label_preservation": 0.7,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.05,
+      "n": 40,
+      "label_preservation": 0.625,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.1,
+      "n": 40,
+      "label_preservation": 0.575,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.55,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.15,
+      "n": 40,
+      "label_preservation": 0.6,
+      "self_preservation": 1.0,
+      "flat_label_preservation": 0.5,
+      "flat_self_preservation": 1.0
+    },
+    {
+      "rate": 0.25,
+      "n": 40,
+      "label_preservation": 0.55,
+      "self_preservation": 0.975,
+      "flat_label_preservation": 0.4,
+      "flat_self_preservation": 0.675
+    },
+    {
+      "rate": 0.4,
+      "n": 40,
+      "label_preservation": 0.375,
+      "self_preservation": 0.5,
+      "flat_label_preservation": 0.25,
+      "flat_self_preservation": 0.1
+    }
+  ],
+  "records": [
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AF010406.1",
+      "label": "Artiodactyla",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "EU442884.2",
+      "label": "Carnivore",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_005275.1",
+      "label": "Cetacea",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "X88898.2",
+      "label": "Erinaceomorpha",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ001588.1",
+      "label": "Lagomorpha",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "NC_001788.1",
+      "label": "Perissodactyla",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": true,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "D38116.1",
+      "label": "Primates",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": false,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0005,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0005,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.0005,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.001,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.001,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.001,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.001,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.001,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.005,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.005,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.005,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.005,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.005,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.01,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.01,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.01,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.01,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.01,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.02,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.02,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.02,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.02,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.02,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.05,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.05,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.05,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.05,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.05,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.1,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.1,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.1,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.1,
+      "replicate": 3,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.1,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.15,
+      "replicate": 0,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.15,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.15,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.15,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.15,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.25,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.25,
+      "replicate": 1,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.25,
+      "replicate": 2,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.25,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.25,
+      "replicate": 4,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": true
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.4,
+      "replicate": 0,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.4,
+      "replicate": 1,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.4,
+      "replicate": 2,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.4,
+      "replicate": 3,
+      "knn_majority_same_label": true,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    },
+    {
+      "seed_acc": "AJ238588.1",
+      "label": "Rodentia",
+      "rate": 0.4,
+      "replicate": 4,
+      "knn_majority_same_label": false,
+      "knn_includes_self": true,
+      "flat_knn_majority_same_label": false,
+      "flat_knn_includes_self": false
+    }
+  ]
+}
